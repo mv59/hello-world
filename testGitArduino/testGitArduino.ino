@@ -11,5 +11,9 @@ void loop()
 //Add your repeated code here
 	// do stuff here
 	// Todo
+	for (int i = 0; i < 10; i++) {
+		Serial.print("line: ");
+		Serial.println(i);
+	}
 
 }
